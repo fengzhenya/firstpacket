@@ -59,6 +59,7 @@
 		function query() { 
 		  //进行异步调用查询 
 		  console.log(111);
+		  console.log('test');
 		}
 		var lazyQuery = $.debounce(query, 300);
 		$('.div').click(lazyQuery);
